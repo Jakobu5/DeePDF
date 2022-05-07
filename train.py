@@ -15,7 +15,7 @@ from models import INPUT_LENGTH, INPUT_HEIGHT, ModelA, ModelB, ModelC
 import argparse
 import pickle
 import hashlib
-from utils import torch_summarize, PDFDataSet, predict, find_detection_at
+from utils import torch_summarize, PDFDataSet, predict
 from sklearn.metrics import roc_curve
 import matplotlib
 matplotlib.use('pdf')
